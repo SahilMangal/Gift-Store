@@ -1,0 +1,148 @@
+/* Slider Stylesheet - start  */
+.sliderShowContainer {
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 2px solid var(--border);
+	position: relative;
+	padding: 5px;
+}
+
+.sliderShowContainer .slider {
+  display: none;
+}
+
+.sliderShowContainer .slider img {
+	width: 100%;
+	height: 500px;
+	border-radius: 5px;
+}
+
+/* Hide the images by default */
+.sliderShowContainer .slider {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Slider Stylesheet - ends  */
+
+/* Recently Added Products Div - Start */
+.recentlyAddedGifts {
+  margin-bottom: 20px;
+}
+
+.recentlyAddedGifts .row .latestProductsHeader {
+  text-align: center;
+  padding: 100px 20px;
+  border-top: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  font-family: Chalkduster;
+  border-radius: 10px;
+  font-size: 1.6em;
+  color: var(--border);
+  margin-right: 90px;
+  margin-left: 20px;
+}
+
+.recentlyAddedGifts .row .recentlyAdded {
+  background-color: var(--lightBrown);
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  font-family: Chalkduster;
+}
+
+.recentlyAddedGifts .row .recentlyAdded img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  transition: 0.5s all ease-in-out;
+
+}
+
+.recentlyAddedGifts .row .recentlyAdded img:hover{
+  transform: scale(1.2);
+}
+
+.recentlyAddedGifts .row .recentlyAdded .titleName{
+  color: white;
+  font-family: Chalkduster;
+  font-size: 1.2em;
+}
+
+/* Recently Added Products Div - Ends */
+
+.backGImage {
+  background-image: url('../Images/Slider/slide8.jpeg'); 
+  background-attachment: fixed;
+  border-radius: 20px 20px 0px 0px;
+  border: 2px dashed var(--border);
+  font-family: Chalkduster;
+  color: white;
+  padding: 50px;
+  font-size: 1.2em;
+}
+
+
+.faIconStyle {
+  text-decoration: none;
+  color: var(--border);
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+
+.faIconStyle:hover {
+  background-color: var(--border);
+  color: var(--lightA);
+}

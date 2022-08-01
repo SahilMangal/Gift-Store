@@ -1,0 +1,59 @@
+.formBody {
+	margin-top: 10px;
+}
+
+.formBody .row .leftDiv {
+	margin-left: 40px;
+	padding: 15px;
+	border: 2px solid var(--border);
+	border-radius: 10px 0px 0px 10px;
+	background-color: var(--complementaryColor);
+}
+
+.formBody .row .leftDiv img {
+	width: 100%;
+	box-shadow: 0px 0px 5px white;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.formBody .row .rightDiv {
+	margin-left: 30px;
+	border: 2px solid var(--border);
+	border-radius: 0px 10px 10px 0px;
+	padding: 15px;
+}
+
+.formBody .row .rightDiv .header {
+	color: var(--border);
+  	font-family: Chalkduster;
+  	font-size: 2em;
+}
+
+.formBody .row .rightDiv .headingNames {
+	font-family: Chalkduster;
+	font-size: 1.3em;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: var(--border);
+	border-radius: 10px 0px 0px 10px;
+}
+
+.formBody .row .rightDiv .textBox {
+	width: 140%;
+	margin-right: 20px;
+	margin-left: 10px;
+	border: 2px solid var(--border);
+	border-radius: 0px 10px 10px 0px;
+	font-family: Ayuthaya;
+}
+
+.formBody .row .rightDiv .checkBoxDesign {
+	margin-left: 10px;
+	outline: 2px solid var(--border);
+}
+
+.formBody .row .rightDiv .errorMessage {
+	font-family: Ayuthaya;
+	color: red;
+}

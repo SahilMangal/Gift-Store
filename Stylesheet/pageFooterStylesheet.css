@@ -1,0 +1,12 @@
+.footerBody {
+	background-color: var(--border);
+	margin-top: 5px;
+	margin-bottom: 30px;
+	border-radius: 0px 0px 20px 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+	font-family: Chalkduster;
+	font-size: 1.2em;
+	text-align: center;
+}
