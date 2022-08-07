@@ -1,6 +1,5 @@
 <?php
 
-
     if (!isset($_SESSION)) {
         session_start();
     }
@@ -26,6 +25,9 @@
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Home | Gift Store</title>
     <link rel="icon" type="image/x-icon" href="Images/Logo/fav-icon.png">
@@ -54,8 +56,17 @@
 
     <?php include('pageHeader.php'); ?>
 
+    <?php if(isset($_SESSION['customer'])) { ?>
+    <div class="container" style="background-color: var(--lightBrown); padding: 5px 20px; border: 2px solid var(--border); border-radius: 0px 0px 5px 5px;">
+        <h5 style="font-family: Chalkduster; color: var(--lightLime); text-shadow: 0px 0px 2px black;">
+            Welcome Back !!<br> <?php echo $_SESSION['customer']?>
+        </h5>
+    </div>
+    <?php } ?>
+
     <!-- Slideshow container -->
     <div class="container sliderShowContainer">
+
         <!-- Full-width images with number and caption text -->
         <div class="slider">
             <div class="numbertext">1 / 9</div>
@@ -105,6 +116,7 @@
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
     </div>
     <br>
 

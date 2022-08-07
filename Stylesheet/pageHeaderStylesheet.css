@@ -11,7 +11,7 @@
 	margin-top: 5px;
 	background-color: var(--lightBrown);
 	border: 2px solid var(--border);
-	border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .pageHeaderStyle img {

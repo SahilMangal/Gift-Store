@@ -146,3 +146,32 @@
   background-color: var(--border);
   color: var(--lightA);
 }
+
+.addToCart {
+  background-color: var(--lightBrown);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 30px;"
+}
+
+.addToCart a {
+  text-decoration: none;
+  color: white;
+}
+
+.addToCart a:hover {
+  text-decoration: none;
+  color: var(--lightLime);
+}
+
+
+
+
+
+
+
+
+
+
